@@ -14,8 +14,8 @@ export function Hero() {
                     </h1>
                     <p className="leading-6 md:text-lg">
                         We&apos;re launching the Eureka talent network to match
-                        individuals in Uzbekistan with remote jobs at great US
-                        tech companies
+                        tech talent in Uzbekistan with remote jobs at great US
+                        and UK tech companies.
                     </p>
                     <Link href="https://t.me/eurekatalent_bot" target="_blank">
                         <Button className="max-w-[178px]">Join us</Button>

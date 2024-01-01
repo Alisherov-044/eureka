@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Button, Logo } from "@/components";
-import { footerLinks } from "@/data";
 
 export function Footer() {
     return (
@@ -8,6 +7,10 @@ export function Footer() {
             <div className="w-full flex flex-col gap-y-10 sm:flex-row sm:items-center sm:justify-between sm:gap-x-5">
                 <div className="flex flex-col gap-y-4">
                     <Logo />
+                    <p className="text-sm max-w-[320px]">
+                        Matching tech talent in Uzbekistan to remote jobs in the
+                        US & UK
+                    </p>
                 </div>
                 <Link href="https://t.me/eurekatalent" target="_blank">
                     <Button className="max-w-[178px]">Join us</Button>

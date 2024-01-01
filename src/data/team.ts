@@ -8,20 +8,20 @@ type TUser = {
 export const team: TUser[] = [
     {
         id: 1,
-        name: "Joni Rakhimiy",
-        specification: "Product designer",
+        name: "Mirav Vyas",
+        specification: "UK & Europe Lead",
         image: "/team/img-1.png",
     },
     {
         id: 2,
         name: "Ilyos Olimov",
-        specification: "CEO",
+        specification: "Uzbekistan Lead",
         image: "/team/img-2.png",
     },
     {
         id: 3,
-        name: "Joni Rakhimiy",
-        specification: "Product designer",
+        name: "Nodir Sharipov",
+        specification: "Talent Success Lead",
         image: "/team/img-3.png",
     },
 ];

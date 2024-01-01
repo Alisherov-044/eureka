@@ -12,7 +12,7 @@ export function About() {
             <h1 className="font-bold text-xl text-center md:text-2xl lg:text-3xl">
                 Why we&apos;re building Eureka
             </h1>
-            <p>Lorem ipsum corapartion</p>
+            <p>Meet the team</p>
             <Swiper
                 loop
                 centeredSlides
@@ -63,21 +63,16 @@ export function About() {
             <div className="px-5">
                 <div className="p-4 rounded-xl md:rounded-2xl md:p-8 bg-secondary">
                     <p className="text-sm leading-6 md:text-lg">
-                        When you look up the word &ldquo;eureka,&rdquo; you will
-                        find this definition: &ldquo;a cry of joy or
-                        satisfaction when one finds or discovers
-                        something&rdquo; And that&apos;s exactly how Mirav felt
-                        in 2020 when, by pure luck, he discovered Nodir and
-                        Ilyos, who became the technical force powering his
-                        London-based mobile app start-up called Rize. For Rize
-                        it meant being able to ship high quality products more
-                        cost effectively. For Nodir and Ilyos, it opened the
-                        doors to working with a UK start-up team and
-                        compensation above their local market rate. A win-win
-                        for everyone. In recent years, the number of
-                        high-quality technical talents in Uzbekistan has
-                        exploded. Our mission is to help more of these
-                        individuals experience eureka moments just like we did.
+                        &ldquo;Eureka&rdquo; means finding joy in discovery.
+                        That&apos;s what happened to Mirav in 2020 when he
+                        luckily met Nodir and Ilyos. They became the tech heart
+                        of his London-based mobile app start-up. The duo helped
+                        the start-up bring their product to life and iterate
+                        quickly on user feedback. It also allowed Nodir and
+                        Ilyos to work with a fast-moving UK tech team and earn
+                        above their local market rates. Now, with so many
+                        skilled tech people in Uzbekistan, the team wants to
+                        help others find their &ldquo;eureka&rdquo; moments too.
                     </p>
                 </div>
             </div>
