@@ -62,7 +62,7 @@ export function About() {
             </Swiper>
             <div className="px-5">
                 <div className="p-4 rounded-xl md:rounded-2xl md:p-8 bg-secondary">
-                    <p className="text-sm leading-6">
+                    <p className="text-sm leading-6 md:text-lg">
                         When you look up the word &ldquo;eureka,&rdquo; you will
                         find this definition: &ldquo;a cry of joy or
                         satisfaction when one finds or discovers
