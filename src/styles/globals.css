@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    @apply h-full;
+}
+
+*::-webkit-scrollbar {
+    @apply w-2;
+}
+
+*::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-md;
+}
+
+body {
+    @apply flex flex-col justify-between bg-black text-white;
+}
+
+body > main {
+    @apply flex-auto;
+}
+
+.container {
+    @apply max-w-[1200px] px-5 mx-auto;
+}
+
+.container-sm {
+    @apply max-w-[1000px] px-5 mx-auto;
+}
+
+.swiper-pagination-bullets {
+    @apply flex items-center justify-center gap-x-5 my-5;
+}
+
+.pagination-bullet {
+    @apply w-14 h-[1px] bg-white;
+}
+
+.pagination-bullet-active {
+    @apply bg-blue-600;
+}
