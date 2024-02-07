@@ -31,11 +31,11 @@ export function Hero() {
                             className="rounded-lg overflow-hidden"
                         />
                         <Image
-                            src="/hero/img-2.png"
+                            src="/hero/img-2.jpg"
                             width={276}
                             height={290}
                             alt="hero img"
-                            className="rounded-lg overflow-hidden"
+                            className="rounded-lg object-cover aspect-square overflow-hidden"
                         />
                     </div>
                     <div className="flex flex-col gap-y-4 sm:gap-y-6 md:gap-y-8">
@@ -44,7 +44,7 @@ export function Hero() {
                             width={276}
                             height={290}
                             alt="hero img"
-                            className="rounded-lg overflow-hidden"
+                            className="rounded-lg object-cover aspect-square overflow-hidden"
                         />
                         <Image
                             src="/hero/img-4.png"

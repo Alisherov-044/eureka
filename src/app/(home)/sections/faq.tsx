@@ -10,9 +10,6 @@ export function FAQ() {
     return (
         <section className="flex flex-col items-center gap-y-5 container-sm mt-14">
             <h1 className="text-xl font-bold sm:text-2xl md:text-3xl">FAQ</h1>
-            <p className="text-center">
-                Your Queries, Our Answers: Unveiling Key Information
-            </p>
             <Accordion
                 type="single"
                 collapsible
